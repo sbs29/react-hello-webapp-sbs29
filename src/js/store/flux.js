@@ -5,6 +5,9 @@ const getState = ({ getStore, getActions, setStore }) => {
 			contacts: []
 		},
 		actions: {
+
+			// https://playground.4geeks.com/contact/docs#/		API-DOCS
+
 			getContacts: async () => {
 				try {
 					const agendaName = getStore().agenda;
